@@ -2,14 +2,14 @@
 AUTHORNAME="Steph"
 AUTHOREMAIL="Steph@itsalocke.com"
 GITURL="https://$GITHUB_PAT@github.com/$TRAVIS_REPO_SLUG.git"
-DESTDIR = "lockedatapublished/slides"
+DESTDIR="lockedatapublished/slides"
 DESTURL="https://$GITHUB_PAT@github.com/$DESTDIR.git"
+LOGDIR="docs/$TRAVIS_REPO_SLUG"
 
 git config --global user.name $AUTHORNAME
 git config --global user.email $AUTHOREMAIL
 
 R CMD BATCH './buildpres.R'
-LOGDIR="docs/$TRAVIS_REPO_SLUG"
 mkdir -p $LOGDIR
 cp buildpres.Rout $LOGDIR
 
