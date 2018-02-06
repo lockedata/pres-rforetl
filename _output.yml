@@ -1,7 +1,7 @@
 revealjs::revealjs_presentation:
   self_contained: false
   theme: default
-  css: css/lockedataslides.css
+  css: css/slideslockedata.css
   lib_dir: reveal
   reveal_options:
     height: "1080"
