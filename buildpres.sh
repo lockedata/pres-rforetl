@@ -2,13 +2,13 @@
 AUTHORNAME="Steph"
 AUTHOREMAIL="Steph@itsalocke.com"
 GITURL="https://$GITHUB_PAT@github.com/$TRAVIS_REPO_SLUG.git"
-DESTURL="https://github.com/lockedatapublished/slides"
+DESTURL="https://github.com/lockedatapublished/slides.git"
 
 git config --global user.name $AUTHORNAME
 git config --global user.email $AUTHOREMAIL
 
 R CMD BATCH './buildpres.R'
-cp buildpres.Rout docs/$TRAVIS_REPO_SLUG.Rout
+cp buildpres.Rout docs/$(dirname `pwd`).Rout
 
 cd ..
 git clone $DESTURL
