@@ -2,8 +2,8 @@
 AUTHORNAME="Steph"
 AUTHOREMAIL="Steph@itsalocke.com"
 GITURL="https://$GITHUB_PAT@github.com/$TRAVIS_REPO_SLUG.git"
-DESTDIR="lockedatapublished/slides"
-DESTURL="https://$GITHUB_PAT@github.com/$DESTDIR.git"
+DESTDIR="slides"
+DESTURL="https://$GITHUB_PAT@github.com/lockedatapublished/$DESTDIR.git"
 LOGDIR="docs/$TRAVIS_REPO_SLUG"
 
 git config --global user.name $AUTHORNAME
