@@ -1,0 +1,76 @@
+---
+title: "R for ETL"
+author: "Steph Locke"
+date:  "`r Sys.Date()`"
+output: 
+  revealjs::revealjs_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, dev="svg",
+     out.height = "800px",  strip.white=TRUE
+     ,collapse = TRUE, dev.args = list(bg="transparent")
+)
+
+```
+
+## Agenda
+- Data import
+- Data transformation
+- Data validation
+- Data export
+- Framework
+- Infrastructure
+
+
+## Steph Locke & Locke Data
+- Steph
+    + MVP
+    + Learn R books: [geni.us/rfundamentals](//geni.us/rfundamentals)
+- Locke Data
+    + Consultancy focussed on helping organisations get started with data science
+
+- @stefflocke @lockedata
+- steph@itsalocke.com
+- itsalocke.com
+
+# Data import
+## Key points
+## R packages
+## Example
+## Exercise
+# Data transformation
+## Key points
+## R packages
+## Example
+## Exercise
+# Data validation
+## Key points
+## R packages
+## Example
+## Exercise
+# Data export
+## Key points
+## R packages
+## Example
+## Exercise
+# Framework 
+## Key points
+## R packages
+## Example
+## Exercise
+# Infrastructure
+## Key points
+## R packages
+## Example
+## Exercise
+
+# Conclusion
+## Data import
+## Data transformation
+## Data validation
+## Data export
+## Framework
+## Infrastructure
+## Wrapup
+Q&A
