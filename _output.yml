@@ -1,0 +1,9 @@
+revealjs::revealjs_presentation:
+  self_contained: false
+  theme: default
+  css: css/lockedataslides.css
+  lib_dir: reveal
+  reveal_options:
+    height: "1080"
+    width: "1920"
+    margin: "0.05"
